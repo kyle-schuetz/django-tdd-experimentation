@@ -13,4 +13,4 @@ def test_movie_model():
     assert movie.year == "1987"
     assert movie.created_date
     assert movie.updated_date
-    assert str(movie) == movie.titlee
+    assert str(movie) == movie.title
